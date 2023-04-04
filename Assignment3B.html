@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, scale=1">
+        <link rel="stylesheet" href="Assignment3.css">
+    </head>
+    <body>
+        <H1>Zael Salmon</H1>
+        <header id="top">
+            <nav>
+                <ul>
+					<li><a href="Assignment3.html">Work Experience and Skills</a></li>
+					<li><a href="Assignment3B.html">Personality and Hobbies</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+            </nav>
+        </header>
+        <section class="container">
+        <!--Pictures for each-->
+            <article id="article1">
+                <h3>Language skills</h3>
+                <img src="Images/QuebecFlag.jpg" alt="The Provincal Flag of Quebec">
+                <p>
+                    I spent 2 years in eastern Canada (Mainly Quebec) serving as a missionary for my Church. 
+                    As such I learned to speak and understand French in both religous and casual settings.
+                    Since returning to Alberta I have continued to improve my French language skills in speaking with friends here and in Quebec.
+                    A recording of my french language skills is <a href="#francais">below</a>
+                    I have also enjoyed watching popular movies in both French and English.
+                    During my two years in Eastern Canada, I spoke with many people and learned a great many things about the many cultures there.
+                    This lead me to have a greater understanding and appreciation of other cultures.
+                    I learned a few phrases in Spanish and can understand simple Spanish (due to the similarities between the two languages)
+                    I have plans to learn Spanish more fully through university classes.
+                </p>
+                </article>
+            <article id="article2">
+                <h3>Hobbies</h3>   
+                <img src="images/Puzzle.jpg" alt="A puzzle piece">
+                <p>
+                    My hobbies include skiing, solving puzzles, lond-distance running and baking. My passion is to create things and to move around physically.
+                    I enjoy both separately and together. 
+                    I have ran multiple half-marathons and have also spent hours at a time at my desk creating puzzles for 
+                    friends or solving ones they have given to me.
+                    I believe that my passion for puzzle solving is what leads me to continue to develop my language skills 
+                    as learning other language is similar to solving a puzzle.
+                    Both of these passions lead me to enjoy being a boy scout in my youth. 
+                    Often times we would be presented with a scenario crafted by the youth leaders and would have to decide as a group 
+                    what course of action would be suitable given our current supplies. 
+                    This type of puzzle solving lead me to pursue the Chief Scout award (The Candian equivalent of Eagle Scout).
+                    I have continued in the scouting program in my later years as a youth leader.
+                </p>
+            </article>
+        </section>
+		<section id="form">
+			<form method="post" action="mailto:wsalm163@mtroyal.ca" name="inquiry" id="contactme">
+				<h1>Looking to get in contact?</h1>
+				<label>
+					What would you like to talk about?
+				<br>
+					<input type="text" name="subject of inquiry" maxlength="50" required placeholder="How can I help?">
+				</label>
+				<br>
+			<label>
+				Memo
+				<br>
+				<textarea name="questions" rows="5" required ></textarea>
+			</label>
+			<br>
+				<label>
+					Date
+					<br>
+					<input type="date" name="Date of inquiry" required>
+				</label>
+			<br>
+			<label>
+				Please enter your phone number (optional)
+		<br>
+				<input type="tel" name="Telephone number" placeholder="403-403-6969" Pattern ="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" maxlength="12">
+			</label>
+			<br>
+			<label>
+				Please enter your email
+			<br>
+				<input type="text" name="Enter your email address" required placeholder="richardroll@notreal.com" Pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$">
+			</label>
+		<br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Clear">
+			</form>
+            <audio controls preload=auto id="francais">
+                <source src="images/francais.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+                    <h4>Transcript of Audio File</h4>
+                    <p>
+                        Bonjour, Je m'appelle Zael Salmon. Je fais des courses a l'universite de Mount Royal. 
+                        l'ete passe j'ai epouser ma femme en aout. On habite proche de l'universite.
+                        lorsque je fais mes etudes elle travaille pour nous suporter.
+                        C'est facile a parler Francais pour moi mais ecrire est un outre affaire.
+                        Cest aussi facile pour moi de comprendre le Francais que le parler.
+                        J'ecoute beaucoup de mes films preferes en Francais et en Anglais et lire cest aussi facile pour moi.
+                    </p>              
+		</section>
+
+        <footer>
+            <a href="#top">Back To Top</a>
+        </footer>
+    </body>
+</html>
